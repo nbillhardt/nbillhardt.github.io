@@ -80,7 +80,7 @@ section ul {
   padding-left: 4.5em;
 }
 
-#skills ol{
+#skills ul{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
