@@ -8,7 +8,6 @@
 
 
 
-
 html {
   font-size: 16px;
   margin-top: 3em;
@@ -22,28 +21,30 @@ h3 {
 }
 
 h3 {
-    padding: 1em;
+  padding: 1em;
 }
 header,
 main,
 footer {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1050px;
 }
 
 header {
-    align-items: center;
-    background-color: greenyellow;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 2em 0;
-    color: black;
+  align-items: center;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2em 0;
+  color: black;
 }
 header h1 {
   font-size: 3em;
 }
 
-
+main {
+  background-color: rgb(11, 212, 44);
+}
 
 nav {
   position: fixed;
@@ -65,98 +66,109 @@ nav a:hover {
   background: #666;
 }
 
-section{
-    margin: 1em 0;
-    padding-top: 3em;
-    min-height: 20em;
+section {
+  margin: 1em 0;
+  padding-top: 3em;
+  min-height: 20em;
 }
 
-section > p{
-    margin: 1em 0;
+section > p {
+  margin: 1em 2em ;
 }
 
-section ul{
-    padding-left: 1.5em;
+section ul {
+  padding-left: 4.5em;
 }
 
-#project1{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-column-gap: 1em;
-    padding-bottom: 3em;
+#skills ol{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 1em;
+  padding-left: 20%;
+  justify-content: center;
 }
 
-#project1 article{
-    background: #ccc;
-    padding: 1em;
+
+
+#project1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 1em;
+  padding-bottom: 3em;
 }
 
-#project1 article img{
-    width: 100%;
-    border: 1px solid #333;
-}
-#project2{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-column-gap: 1em;
-    padding-bottom: 3em;
+#project1 article {
+  background: #ccc;
+  padding: 1em;
 }
 
-#project2 article{
-    background: #ccc;
-    padding: 1em;
+#project1 article img {
+  width: 100%;
+  border: 1px solid #333;
+}
+#project2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 1em;
+  padding-bottom: 3em;
 }
 
-#project2 article img{
-    width: 100%;
-    border: 1px solid #333;
-}
-#project3{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-column-gap: 1em;
+#project2 article {
+  background: #ccc;
+  padding: 1em;
 }
 
-#project3 article{
-    background: #ccc;
-    padding: 1em;
+#project2 article img {
+  width: 100%;
+  border: 1px solid #333;
+}
+#project3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 1em;
 }
 
-#project3 article img{
-    width: 100%;
-    border: 1px solid #333;
+#project3 article {
+  background: #ccc;
+  padding: 1em;
 }
 
-footer{
-    margin-top: 2em;
-    margin-bottom: 1em;
-    background: #666;
-    color: #fff;
-    padding: 1em 0;
-    text-align: center;
+#project3 article img {
+  width: 100%;
+  border: 1px solid #333;
+}
+
+footer {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  background: #666;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 70px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 10%;
-  }
-  .fa:hover {
-      opacity: 0.7;
-  }
-  .fa-linkedin {
-    background: #007BB5;
-    color: white;
-  }
-  .fa-github {
-    background: whitesmoke;
-    color: black;
-    padding-right: 3em;
-  }
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 10%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+  background: black;
+  color: white;
+  padding-right: 1em;
+}
