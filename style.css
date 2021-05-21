@@ -6,7 +6,71 @@
   padding: 0;
 }
 
+#about{
+  background-color:rgb(11, 212, 44) ;
+      
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-column: repeat(2, 1fr);
+     grid-template-rows: auto;
+     
+     text-align: center;
+ }
+ 
 
+ #about ul {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  
+  grid-column-gap: 1em;
+  
+  
+}
+
+
+
+.aboutImage{
+  grid-column: 2/3;
+  width: 100%;
+  
+}
+.aboutText{
+  grid-column: 1/2;
+    grid-row: 1/2;
+    padding-left: 2em;
+}
+
+body {
+  background-color: #150;
+}
+
+#education{
+  text-align: center;
+  display: grid;
+  
+    
+}
+.college {
+    display: grid;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: auto;
+  grid-column-gap: 2em;
+  padding: 1em 1em 1em 1em;
+}
+
+.bachelor{
+    background-color: greenyellow;
+    display: grid;
+    justify-content: center;
+    margin: 1em;
+}
+
+.associate{
+    background-color: greenyellow;
+    display: grid;
+    justify-content: center;
+    margin: 1em;
+}
 
 html {
   font-size: 16px;
@@ -36,15 +100,26 @@ header {
   display: flex;
   justify-content: space-evenly;
   padding: 2em 0;
-  color: black;
 }
 header h1 {
   font-size: 3em;
 }
 
+
+.landingPage {
+    background-color:black;
+    border-radius: 8px;
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+}
+
+
 main {
   background-color: rgb(11, 212, 44);
 }
+
+
 
 nav {
   position: fixed;
@@ -73,14 +148,14 @@ section {
 }
 
 section > p {
-  margin: 1em 2em ;
+  margin: 1em 2em;
 }
 
 section ul {
-  padding-left: 4.5em;
+  padding-left: 4em;
 }
 
-#skills ul{
+#skills ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
@@ -89,14 +164,12 @@ section ul {
   justify-content: center;
 }
 
-
-
 #project1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   grid-column-gap: 1em;
-  padding-bottom: 3em;
+  padding: 1em 1em 1em;
 }
 
 #project1 article {
@@ -113,7 +186,7 @@ section ul {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   grid-column-gap: 1em;
-  padding-bottom: 3em;
+  padding: 1em 1em 1em;
 }
 
 #project2 article {
@@ -130,6 +203,7 @@ section ul {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   grid-column-gap: 1em;
+  padding: 1em 1em 1em;
 }
 
 #project3 article {
