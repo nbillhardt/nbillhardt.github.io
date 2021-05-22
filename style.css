@@ -7,62 +7,23 @@
 }
 
 #about{
-  background-color:rgb(11, 212, 44) ;
-      
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     grid-column: repeat(2, 1fr);
-     grid-template-rows: auto;
-     
-     text-align: center;
- }
- 
-
- #about ul {
+  background-color:rgb(11, 212, 44) ; 
   display: grid;
-  grid-template-columns: repeat(1fr);
-  
-  grid-column-gap: 1em;
-  
-  
+  grid-template-columns: 1fr 1fr;
+  grid-column: repeat(2, 1fr);
+  grid-template-rows: auto;
+  text-align: center;
 }
-
-
 
 .aboutImage{
   grid-column: 2/3;
   width: 100%;
-  
 }
+
 .aboutText{
   grid-column: 1/2;
     grid-row: 1/2;
     padding-left: 2em;
-}
-
-body {
-  background-color: #150;
-}
-
-#education{
-  text-align: center;
-  display: grid;
-  
-    
-}
-.college {
-    display: grid;
-  grid-template-columns: 400px 400px;
-  grid-template-rows: auto;
-  grid-column-gap: 2em;
-  padding: 1em 1em 1em 1em;
-}
-
-.bachelor{
-    background-color: greenyellow;
-    display: grid;
-    justify-content: center;
-    margin: 1em;
 }
 
 .associate{
@@ -70,6 +31,66 @@ body {
     display: grid;
     justify-content: center;
     margin: 1em;
+    padding: 1em;
+}
+
+.bachelor{
+    background-color: greenyellow;
+    display: grid;
+    justify-content: center;
+    margin: 1em;
+    padding: 1em;
+}
+
+body {
+  background-color: #150;
+}
+
+.college {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: auto;
+  grid-column-gap: 13em;
+  padding: 0em 1em 1em;
+}
+
+#education{
+  text-align: center;
+  display: grid;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 10%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+  padding-right: 1em;
+}
+
+footer {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  background: #666;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
 }
 
 html {
@@ -79,14 +100,14 @@ html {
 
 h1,
 h2,
-h3 {
-  color: #666;
+h3, h4 {
   text-align: center;
 }
 
 h3 {
   padding: 1em;
 }
+
 header,
 main,
 footer {
@@ -95,16 +116,18 @@ footer {
 }
 
 header {
-  align-items: center;
-  background-color: greenyellow;
-  display: flex;
-  justify-content: space-evenly;
+  color: orangered;
+  justify-content: space-around;
   padding: 2em 0;
 }
+
 header h1 {
-  font-size: 3em;
+  font-size: 4em;
 }
 
+header h2{
+  font-size: 2em;
+}
 
 .landingPage {
     background-color:black;
@@ -114,12 +137,9 @@ header h1 {
     width: 80%;
 }
 
-
 main {
   background-color: rgb(11, 212, 44);
 }
-
-
 
 nav {
   position: fixed;
@@ -131,6 +151,7 @@ nav {
   justify-content: center;
   background: #333;
 }
+
 nav a {
   padding: 0.5em 2em;
   text-decoration: none;
@@ -139,29 +160,6 @@ nav a {
 
 nav a:hover {
   background: #666;
-}
-
-section {
-  margin: 1em 0;
-  padding-top: 3em;
-  min-height: 20em;
-}
-
-section > p {
-  margin: 1em 2em;
-}
-
-section ul {
-  padding-left: 4em;
-}
-
-#skills ul {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  grid-column-gap: 1em;
-  padding-left: 20%;
-  justify-content: center;
 }
 
 #project1 {
@@ -198,6 +196,7 @@ section ul {
   width: 100%;
   border: 1px solid #333;
 }
+
 #project3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -216,33 +215,25 @@ section ul {
   border: 1px solid #333;
 }
 
-footer {
-  margin-top: 2em;
-  margin-bottom: 1em;
-  background: #666;
-  color: #fff;
-  padding: 1em 0;
-  text-align: center;
+section {
+  margin: 1em 0;
+  padding-top: 3em;
+  min-height: 20em;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 70px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 10%;
+section > p {
+  margin: 1em 2em;
 }
-.fa:hover {
-  opacity: 0.7;
+
+section ul {
+  padding-left: 4em;
 }
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-.fa-github {
-  background: black;
-  color: white;
-  padding-right: 1em;
+
+#skills ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 1em;
+  padding-left: 20%;
+  justify-content: center;
 }
