@@ -6,8 +6,7 @@
   padding: 0;
 }
 
-#about{
-  background-color:rgb(11, 212, 44) ; 
+#about{ 
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column: repeat(2, 1fr);
@@ -27,7 +26,6 @@
 }
 
 .associate{
-    background-color: greenyellow;
     display: grid;
     justify-content: center;
     margin: 1em;
@@ -35,7 +33,6 @@
 }
 
 .bachelor{
-    background-color: greenyellow;
     display: grid;
     justify-content: center;
     margin: 1em;
@@ -43,7 +40,7 @@
 }
 
 body {
-  background-color: #150;
+  background-color: rgb(0, 0, 0);
 }
 
 .college {
@@ -116,7 +113,7 @@ footer {
 }
 
 header {
-  color: orangered;
+  color: lime;
   justify-content: space-around;
   padding: 2em 0;
 }
@@ -130,7 +127,7 @@ header h2{
 }
 
 .landingPage {
-    background-color:black;
+    background-color: rgba(169, 169, 169, 0.61);
     border-radius: 8px;
     margin: auto;
     padding: 20px;
@@ -138,7 +135,7 @@ header h2{
 }
 
 main {
-  background-color: rgb(11, 212, 44);
+  background-color: wheat;
 }
 
 nav {
@@ -171,7 +168,7 @@ nav a:hover {
 }
 
 #project1 article {
-  background: #ccc;
+  background: whitesmoke;
   padding: 1em;
 }
 
@@ -236,4 +233,40 @@ section ul {
   grid-column-gap: 1em;
   padding-left: 20%;
   justify-content: center;
+}
+
+.education__modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: palegreen;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
