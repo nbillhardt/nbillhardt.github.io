@@ -176,46 +176,10 @@ nav a:hover {
   width: 100%;
   border: 1px solid #333;
 }
-#project2 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  grid-column-gap: 1em;
-  padding: 1em 1em 1em;
-}
-
-#project2 article {
-  background: #ccc;
-  padding: 1em;
-}
-
-#project2 article img {
-  width: 100%;
-  border: 1px solid #333;
-}
-
-#project3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  grid-column-gap: 1em;
-  padding: 1em 1em 1em;
-}
-
-#project3 article {
-  background: #ccc;
-  padding: 1em;
-}
-
-#project3 article img {
-  width: 100%;
-  border: 1px solid #333;
-}
 
 section {
   margin: 1em 0;
   padding-top: 3em;
-  min-height: 20em;
 }
 
 section > p {
@@ -230,8 +194,8 @@ section ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  grid-column-gap: 1em;
-  padding-left: 20%;
+  grid-column-gap: 4em;
+  padding-left: 15%;
   justify-content: center;
 }
 
