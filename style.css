@@ -113,7 +113,7 @@ footer {
 }
 
 header {
-  color: lime;
+  color: whitesmoke;
   justify-content: space-around;
   padding: 2em 0;
 }
@@ -214,7 +214,7 @@ section ul {
 }
 
 .modal-content {
-  background-color: palegreen;
+  background-color: whitesmoke;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
@@ -233,4 +233,8 @@ section ul {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+#contact  {
+  text-align: center;
 }
