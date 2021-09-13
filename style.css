@@ -19,6 +19,11 @@
   width: 100%;
 }
 
+.sectionimg {
+  height: 250px;
+  width: 350px;
+}
+
 .aboutText{
   grid-column: 1/2;
     grid-row: 1/2;
@@ -111,9 +116,6 @@ footer {
   max-width: 1050px;
 }
 
-.logoimg{
- 
-}
 
 header {
   color: whitesmoke;
@@ -221,7 +223,7 @@ section ul {
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 40%;
+  width: 50%;
 }
 
 .close {
